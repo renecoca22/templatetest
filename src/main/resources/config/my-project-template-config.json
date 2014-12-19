@@ -1,0 +1,111 @@
+{
+    "issue-type-scheme":
+    {
+        "name": "my.project.template.issuetype.scheme.name",
+        "description": "my.project.template.issuetype.scheme.description",
+        "issue-types": [
+            {
+                "key": "issueType50",
+                "name": "Power Transformer",
+                "description": "Enatrel.",
+                "icon": "/images/icons/lines.png",
+            },
+            {
+                "key": "issueType51",
+                "name": "Transmission Lines",
+                "description": "Enatrel.",
+                "icon": "/images/icons/lines.png",
+                "workflow": "wf50"
+            },
+            {
+                "key": "issueType52",
+                "name": "Substations",
+                "description": "Enatrel.",
+                "icon": "/images/icons/lines.png",
+                "workflow": "wf50"
+            },
+            {
+                "key": "issueType53",
+                "name": "Programs",
+                "description": "Enatrel.",
+                "icon": "/images/icons/programs.png",
+                "workflow": "wf53"
+            },
+            {
+                "key": "issueType54",
+                "name": "Failures",
+                "description": "Enatrel.",
+                "icon": "/images/icons/fails.png",
+                "workflow": "wf52"
+            },
+            {
+                "key": "issueType55",
+                "name": "Substation Details",
+                "description": "Enatrel.",
+                "icon": "/images/icons/detail.png",
+                "workflow": "wf51"
+            },
+            {
+                "key": "issueType56",
+                "name": "Transmission Lines Details",
+                "description": "Enatrel.",
+                "icon": "/images/icons/detail.png",
+                "workflow": "wf51"
+            },
+            {
+                "key": "issueType57",
+                "name": "Clearance Program",
+                "description": "Enatrel.",
+                "icon": "/images/icons/programs.png",
+                "workflow": "wf54"
+            },
+            {
+                "key": "issueType58",
+                "name": "Improvement Program",
+                "description": "Enatrel.",
+                "icon": "/images/icons/programs.png",
+                "workflow": "wf54"
+            },
+            {
+                "key": "issueType59",
+                "name": "Maintenance Program",
+                "description": "Enatrel.",
+                "icon": "/images/icons/programs.png",
+                "workflow": "wf54"
+            }
+        ]
+    },
+    "workflow-scheme":
+    {
+        "name": "my.project.template.workflow.scheme.name",
+        "description": "my.project.template.workflow.scheme.description",
+        "default-workflow": "wf50",
+        "workflows": [
+            {
+                "key": "wf50",
+                "name": "my.project.template.workflow.wf50.name",
+                "workflow-bundle": "/wfb/ENATREL--SS-and-TL-[Workflow].jwb"
+            },
+            {
+                "key": "wf51",
+                "name": "my.project.template.workflow.wf51.name",
+                "workflow-bundle": "/wfb/ENATREL--Generic-Details-[Workflow].jwb"
+            },
+            {
+                "key": "wf52",
+                "name": "my.project.template.workflow.wf52.name",
+                "workflow-bundle": "/wfb/ENATREL--Generic-Failures-[Workflow].jwb"
+            },
+            {
+                "key": "wf53",
+                "name": "my.project.template.workflow.wf53.name",
+                "workflow-bundle": "/wfb/ENATREL--Generic-Programs-[Workflow].jwb"
+            },
+            {
+                "key": "wf54",
+                "name": "my.project.template.workflow.wf54.name",
+                "workflow-bundle": "/wfb/ENATREL--Program-[Workflow].jwb"
+            }
+        ]
+    }
+}
